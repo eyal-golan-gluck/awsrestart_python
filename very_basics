@@ -1,0 +1,8 @@
+v_rent = input("Please enter your monthly rent:")
+v_salary = input("Please enter your monthly salary:")
+if v_salary-v_rent > 1000:
+  print("Both rent and savings are possible this month!")
+  elif v_salary-v_rent < 0:
+  print("Salary is not enough this month.")
+  else:
+    print("Only rent will be paid this month.")
