@@ -1,0 +1,3 @@
+v_sentence = input("Please enter a sentence:")
+v_len = len(v_sentence)
+print(f"User entered a sentence with length of {v_sentence}.")
